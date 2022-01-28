@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/stopwatch2.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/stopwatch2.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/stopwatch2.jpg">
+    <link rel="manifest" href="/favicon/stopwatch2.jpg">
+    <link rel="mask-icon" href="/favicon/stopwatch2.jpg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="digits">
+            <span class="same" id="hr">00</span>
+            <span class="txt">hr</span>
+            <span class="same" id="min">00</span>
+            <span class="txt">min</span>
+            <span class="same" id="sec">00</span>
+            <span class="txt">sec</span>
+            <span class="same" id="mil">00</span>
+            <span class="txt" id="tmil">ms</span>
+        </div>
+        <div class="mobile">
+            <button class="btn" onclick="start()">Start</button>
+            <button class="btn" onclick="stop()">Stop</button>
+            <button class="btn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
